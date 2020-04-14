@@ -1,0 +1,526 @@
+body
+{
+    width: 90%;
+    margin: auto;
+    height: auto;
+}
+
+/*First page*/
+
+.head
+{
+    background-image: url(back1.jpg);
+    width: 100%;
+    height: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.booklin
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 7px;
+    font-family: serif;
+    font-size: 55px;
+}
+@media only screen and (max-width: 600px) {
+    .booklin
+    {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+}
+
+
+.flex-search
+{
+    display: flex;
+    flex-direction: column;
+/*    justify-content: center;*/
+/*    align-content: center;*/
+    align-items: center;
+}
+
+.input
+{
+    width: 35%;
+    text-align: center;
+    border-radius: 12px;
+    height: 45px;
+    background-color: transparent;
+}
+.search
+{
+    width: 100px;
+    padding: 10px 0 0 0;
+    text-align: center;
+    border-radius: 12px;
+    border-color: cyan;
+}
+.input:hover
+{
+    border-color: aqua;
+    padding: 15px;
+    transition: 0.7s;
+}
+.search:hover
+{
+    background-color: cyan;
+    border-color: black;
+    border: 0px solid black;
+    color: black;
+}
+/*End first page*/
+
+/*start the second page*/
+
+@media only screen and (max-width: 600px)
+{
+    .offers
+    {
+        display: flex;
+        backface-visibility: hidden;
+        flex-direction: column;
+        
+    }
+}
+.offers
+{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    background-image: url(page2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    height: 600px;
+    
+}
+ .row
+{
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    
+}
+.column
+{
+    width: 80%;
+    margin: 15px;
+    
+}
+.card
+{
+    height: 450px;
+}
+.offer-img
+{
+    height: 280px;
+}
+.container
+{
+    text-align: center;
+    
+}
+.offer-buttons
+{
+    width: 100%;
+    background-color: transparent;
+    border-color: 0.5px solid cyan;
+    border-radius: 12px;
+    height: 35px;  
+}
+
+.offer-buttons:hover
+{
+    background-color: white;
+    border-color: aqua;
+}
+
+/*end second page*/
+
+@media only screen and (max-width: 600px)
+{
+    .client
+    {
+        text-align: center;
+        position: relative;
+        top: 870px;
+    }
+}
+
+.client
+{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+/*    border: 1px solid black;*/
+    height: auto; 
+    
+}
+.another-row
+{
+    width: 100%;
+}
+
+
+
+
+.preferred
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: antiquewhite;
+    font-style: italic;
+}
+
+
+#flip
+{
+    display: inline-block;
+    margin-left: 5px;
+    width: 350px;
+    height: 350px;
+    padding: 5px;
+    
+
+}
+#flip:hover
+{
+/*    filter: grayscale(100%);*/
+    transform: perspectivescale(1.1);
+    padding: 15px;
+    
+}
+
+/*start footer*/
+@media only screen and (max-width: 600px)
+{
+    .footer
+    {
+        position: relative;
+        top: 830px;
+/*        background-color: black;*/
+    }
+    .lastline
+    {
+        font-size: 15px;
+    }
+    .flex-left
+    {
+        text-align: center;
+        font-size: 15px;
+        
+    }
+    .flex-middle a
+    {
+        font-size: 15px;
+        height: 5px;
+        width: 5px;
+        text-align: center;
+
+    }
+    
+    .visit2
+    {
+        font-size: 15px;
+        margin: 10px;
+    }
+    .sub
+    {
+        font-size: 15px;
+        margin: 10px;
+    }
+}
+.footer
+{
+    background-color: black;
+    color: aliceblue;
+    margin-top: 40px;
+    height: 20vh;
+    
+}
+.inside
+{
+    display: flex;
+    
+}
+
+
+.lastline
+{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 0;
+    
+}
+li
+{
+    list-style-type: none;
+}
+.flex-left
+{
+    padding: 15px;
+    width: 40%;
+    text-align: center;
+    
+}
+.flex-middle
+{
+    width: 25%;
+    text-align: center;
+    
+}
+.fa {
+    padding: 12px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.flex-middle a
+{
+    text-decoration: none;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+    
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/* instagram */
+.fa-instagram {
+  background: #F56040;
+  color: white;
+}
+
+/* youtube */
+.fa-youtube {
+  background: #FF0000;
+  color: white;
+}
+
+
+.flex-right
+{
+    width: 50%;
+    text-align: center;
+    
+}
+
+.sub
+{
+    text-align: center;
+    border-bottom-width: 0;
+    color: white;
+}
+.add-email
+{
+    border-radius: 25px;
+    background-color: white;
+}
+.add-email:hover
+{
+    border-color: aqua;
+}
+input
+{
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 25px;
+}
+input:hover
+{
+    border-color: aqua;
+}
+
+@media only screen and (max-width: 800px) {
+  
+    .booklin
+    {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 50px;
+    }
+    .offers
+    {
+        display: flex;
+        backface-visibility: hidden;
+        flex-direction: column;
+        
+    }
+    .client
+    {
+        text-align: center;
+        position: relative;
+        top: 870px;
+    }
+    .footer
+    {
+        position: relative;
+        top: 850px;
+/*        background-color: black;*/
+    }
+    .lastline
+    {
+        font-size: 15px;
+    }
+    .flex-left
+    {
+        text-align: center;
+        font-size: 15px;
+        
+    }
+    .flex-middle a
+    {
+        font-size: 15px;
+        text-align: center;
+/*        height: 5px;*/
+/*        width: 5px;*/
+
+    }
+    
+    .visit2
+    {
+        font-size: 15px;
+        margin: 10px;
+    }
+    .sub
+    {
+        font-size: 15px;
+        margin: 10px;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  body {
+/*    background-color: lightblue;*/
+  }
+    .booklin
+    {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 50px;
+    }
+    .offers
+    {
+        display: flex;
+        backface-visibility: hidden;
+        flex-direction: column;
+        
+    }
+    .client
+    {
+        text-align: center;
+        position: relative;
+        top: 870px;
+    }
+    .footer
+    {
+        position: relative;
+        top: 850px;
+/*        background-color: black;*/
+    }
+    .lastline
+    {
+        font-size: 15px;
+    }
+    .flex-left
+    {
+        text-align: center;
+        font-size: 15px;
+        
+    }
+    .flex-middle a
+    {
+        font-size: 15px;
+        text-align: center;
+/*        height: 5px;*/
+/*        width: 5px;*/
+
+    }
+    
+    .visit2
+    {
+        font-size: 15px;
+        margin: 10px;
+    }
+    .sub
+    {
+        font-size: 15px;
+        margin: 10px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
